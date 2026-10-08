@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <linearGradient id="khGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5547" />
+      <stop offset="100%" stop-color="#E0281C" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="112" fill="#111111" />
+  <rect width="504" height="504" x="4" y="4" rx="108" fill="none" stroke="#222222" stroke-width="6" />
+
+  <!-- Dynamic Red Slash Accent -->
+  <path d="M120 400 L392 112" stroke="url(#khGradient)" stroke-width="24" stroke-linecap="round" opacity="0.35" />
+
+  <!-- Athletic KH Monogram in White & Red -->
+  <g filter="url(#shadow)">
+    <!-- Letter K in Crisp White -->
+    <path d="M124 140 H168 V232 L248 140 H304 L212 244 L310 372 H252 L168 260 V372 H124 V140 Z" fill="#FFFFFF" />
+
+    <!-- Letter H in Primary Red Gradient -->
+    <path d="M308 140 H352 V234 H412 V140 H456 V372 H412 V276 H352 V372 H308 V140 Z" fill="url(#khGradient)" />
+  </g>
+
+  <!-- Bottom Accent Dot / Badge -->
+  <circle cx="256" cy="426" r="14" fill="#FF4438" />
+</svg>
