@@ -15,7 +15,7 @@ A high-converting, single-page marketing landing site built with **Next.js (App 
    Copy `.env.example` to `.env.local` and set your WhatsApp contact details:
    ```env
    NEXT_PUBLIC_WHATSAPP_NUMBER=1234567890
-   NEXT_PUBLIC_WHATSAPP_MESSAGE=Hello! I want to unlock one week free for the Go One More App.
+   NEXT_PUBLIC_WHATSAPP_MESSAGE=Hello! I want to BEYOND YOUR LIMITS STARTS HERE for the Go One More App.
    ```
 
 3. **Run Development Server**:

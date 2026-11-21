@@ -66,7 +66,6 @@ export const navigationContent = {
     { name: "ABOUT THE SYSTEM", href: "#aboutthesystem" },
     { name: "WHAT'S INSIDE", href: "#whatsinside" },
     { name: "THE METHOD", href: "#goonemoremethod" },
-    { name: "NUTRITION 101", href: "#nutrition101" },
   ] as NavLink[],
 };
 
@@ -74,7 +73,7 @@ export const navigationContent = {
 export const heroContent = {
   h1: "KHAIRY HYBRID APP",
   subtitle: "Hybrid Athlete Training, Nutrition & Community",
-  ctaText: "UNLOCK ONE WEEK FREE",
+  ctaText: "BEYOND YOUR LIMITS STARTS HERE",
   bgImage: "/images/hero.jpg",
   bgAlt: "Khairy Hybrid athlete running outdoors",
 };
@@ -84,38 +83,38 @@ export const introVideoContent = {
   headingLine1: "LEARN MORE ABOUT THE",
   headingLine2: "KHAIRY HYBRID METHOD",
   subtitle: "Achieve your highest level of fitness with the hybrid athlete program.",
-  posterImage: "/images/video-poster.jpg",
+  posterImage: "/images/start/3.jpeg",
   posterAlt: "Intro video preview poster showcasing athlete training",
-  videoSrc: "/videos/intro.mp4",
+  videoSrc: "/videos/khairy.mp4",
 };
 
 // ===== SECTION 2.5: TRANSITION STATEMENT & TICKER =====
 export const transitionContent = {
-  heading: "You Don’t have to sacrifice strength for running",
+  heading: "",
   paragraph:
-    "As someone who loves to run and lift weights, I can relate to the struggle to balance both. However, with the right nutrition, workouts and recovery, you can achieve both.",
+    "",
 };
 
 // ===== SECTION 3: ABOUT THE SYSTEM (id="aboutthesystem") =====
 export const systemContent = {
   headingLine1: "THE SYSTEM BEHIND",
   headingLine2: "KHAIRY HYBRID",
-  subHeading: "Khairy Hybrid Daily",
+  subHeading: "",
   paragraphs: [
     "My weekly training, nutrition, and mentorship program designed to help you become stronger, build endurance, and create habits that carry into every area of your life.",
-    "This is how I train, fuel, recover, and pursue the standard of Train Beyond Limits as an athlete and entrepreneur.",
+    "This is how I train, fuel, recover, then customize every client’s training to pursue the Train Beyond Limits standard.",
   ],
   badge: {
     image: "/images/badge.jpg",
     imageAlt: "Khairy Hybrid community badge",
-    title: "KH",
-    subtitle: "DAILY",
+    title: "",
+    subtitle: "",
   },
   phones: {
     workoutVideo: "/images/phone-workout-1.jpg",
-    workoutVideoAlt: "Phone showing workout exercise list with sets and reps",
+    workoutVideoAlt: "Phone showing Day 4 workout exercises and intervals",
     exerciseList: "/images/phone-workout-2.jpg",
-    exerciseListAlt: "Phone showing app workout video and nutrition tracker",
+    exerciseListAlt: "Phone showing Mobility Day 1 exercises and routine",
   },
   bulletPoints: [
     {
@@ -123,7 +122,7 @@ export const systemContent = {
       text: "that develops strength and endurance together",
     },
     {
-      lead: "Practical nutrition guidance",
+      lead: "Practical nutrition plan & guidance",
       text: "including recipes to help you fuel training and everyday life",
     },
     {
@@ -135,21 +134,22 @@ export const systemContent = {
       text: "built for long-term consistency",
     },
   ] as BulletPoint[],
-  ctaText: "UNLOCK ONE WEEK FREE",
+  ctaText: "BEYOND YOUR LIMITS STARTS HERE",
 };
 
 // ===== SECTION 4: SOCIAL PROOF / TRANSFORMATIONS (id="results") =====
 // Real client transformation photos in an infinite horizontal marquee
 export const resultsContent = {
-  heading: "JOIN THOUSANDS OF OTHERS",
+  heading: "THEY TRAINED BEYOND LIMITS. SO CAN YOU.",
   items: [
-    { id: "t0", image: "/images/transformation-0.jpg", alt: "Client transformation before and after" },
-    { id: "t1", image: "/images/transformation-1.jpg", alt: "Client transformation before and after" },
-    { id: "t2", image: "/images/transformation-2.jpg", alt: "Client transformation before and after" },
-    { id: "t3", image: "/images/transformation-3.jpg", alt: "Client transformation before and after" },
-    { id: "t4", image: "/images/transformation-4.jpg", alt: "Client transformation before and after" },
-    { id: "t5", image: "/images/transformation-5.jpg", alt: "Client transformation before and after" },
-    { id: "t6", image: "/images/transformation-6.jpg", alt: "Client transformation before and after" },
+    { id: "t1", image: "/images/transforamtions/transformation-1.jpeg", alt: "Client transformation 1" },
+    { id: "t2", image: "/images/transforamtions/transformation-2.jpeg", alt: "Client transformation 2" },
+    { id: "t3", image: "/images/transforamtions/transformation-3.jpeg", alt: "Client transformation 3" },
+    { id: "t4", image: "/images/transforamtions/transformation-4.jpeg", alt: "Client transformation 4" },
+    { id: "t5", image: "/images/transforamtions/transformation-5.jpeg", alt: "Client transformation 5" },
+    { id: "t6", image: "/images/transforamtions/transformation-6.jpeg", alt: "Client transformation 6" },
+    { id: "t7", image: "/images/transforamtions/transformation-7.jpeg", alt: "Client transformation 7" },
+    { id: "t8", image: "/images/transforamtions/transformation-8.jpeg", alt: "Client transformation 8" },
   ] as TransformationItem[],
 };
 
@@ -157,7 +157,7 @@ export const resultsContent = {
 export const insideContent = {
   headingLine1: "A LOOK INSIDE",
   headingLine2: "THE APP",
-  ctaText: "UNLOCK ONE WEEK FREE",
+  ctaText: "BEYOND YOUR LIMITS STARTS HERE",
   slides: [
     {
       id: 1,
@@ -166,34 +166,21 @@ export const insideContent = {
       description:
         "My workout programs focus on building size and strength with bodyweight and resistance training, improving your endurance with running workouts, and increasing your recovery with dedicated mobility sessions.",
       athleteImage: "/images/inside-athlete-1.jpg",
-      phoneBack: "/images/app-profile-1.jpg",
-      phoneFront: "/images/app-program-1.jpg",
+      phoneBack: "/images/whats-inside/2.jpeg",
+      phoneFront: "/images/whats-inside/1.jpeg",
     },
     {
       id: 2,
       title: "A LOOK INSIDE THE APP",
-      subtitle: "Nutrition guides.",
+      subtitle: "Customized Nutrition plan .",
       description:
-        "My app comes complete with 8 nutrition lessons designed to provide you a foundation to nutrition education.",
+        "My app comes complete with nutrition lessons, and a nutrition plan customized for each client, built around your body, goal, and lifestyle.",
       athleteImage: "/images/inside-athlete-2.jpg",
-      phoneBack: "/images/app-profile-2.jpg",
-      phoneFront: "/images/app-program-2.jpg",
+      phoneBack: "/images/whats-inside/3.jpeg",
+      phoneFront: "/images/whats-inside/4.jpeg",
     },
     {
       id: 3,
-      title: "A LOOK INSIDE THE APP",
-      subtitle: "Coaching & Communities",
-      bullets: [
-        "Q&As with me",
-        "Share your success with me",
-        "Tell me what content you want to see",
-      ],
-      athleteImage: "/images/inside-athlete-3.jpg",
-      phoneBack: "/images/app-profile-3.jpg",
-      phoneFront: "/images/app-program-3.jpg",
-    },
-    {
-      id: 4,
       title: "A LOOK INSIDE THE APP",
       subtitle: "Bonus features to help you succeed",
       bullets: [
@@ -202,8 +189,8 @@ export const insideContent = {
         "Exclusive shopping lists, recipes, and meal prep ideas",
       ],
       athleteImage: "/images/inside-athlete-4.jpg",
-      phoneBack: "/images/app-profile-1.jpg",
-      phoneFront: "/images/app-program-1.jpg",
+      phoneBack: "/images/whats-inside/5.jpeg",
+      phoneFront: "/images/whats-inside/6.jpeg",
     },
   ] as InsideSlide[],
 };
@@ -213,16 +200,17 @@ export const methodContent = {
   headingLine1: "THE KHAIRY HYBRID",
   headingLine2: "METHOD",
   paragraph:
-    "The Go One More method is rooted in a simple but demanding idea: growth happens in the space just beyond where you want to quit. It's consistently choosing the hard right over the easy wrong, where small choices compound into a meaningfully different life over time. The framework isn't about doing more; its foundation is focus and intention. We get to choose: set goals based on what the world wants for us, or eliminate the noise and pursue purpose rooted in the values and beliefs that are true to who we are.",
-  ctaText: "UNLOCK ONE WEEK FREE",
+    "The Beyond Your Limits method is simple: real growth happens just past the point where you want to quit. It’s about choosing the hard right over the easy wrong. Small choices, repeated every day, add up to a very different life.You don’t need to do more. You need to focus on what matters and train with purpose. And the goals should be yours, based on what you truly value, not what everyone else expects of you.",
+  ctaText: "BEYOND YOUR LIMITS STARTS HERE",
   frameworkTitle: "THE FRAMEWORK",
   frameworkItems: [
     { num: "1", title: "Honoring Commitments" },
     { num: "2", title: "Athletic Performance" },
-    { num: "3", title: "Nutrition as a Daily Choice" },
+    { num: "3", title: "Eat With Purpose, Every Day" },
     { num: "4", title: "Consistency Over Intensity" },
-    { num: "5", title: "Family and Presence" },
-    { num: "6", title: "Value-based and Purpose-driven" },
+    { num: "5", title: "Value-based and Purpose-driven" },
+
+
   ] as FrameworkItem[],
   bgImage: "/images/method-bg.jpg",
   bgAlt: "Atmospheric dark gym background",
@@ -237,7 +225,7 @@ export const stepsContent = {
       title: "SIGN UP",
       description:
         "Create your account and unlock your first week inside the app.",
-      image: "/images/step-1.jpg",
+      image: "/images/start/5.jpeg",
       imageAlt: "App workout exercise list screen",
     },
     {
@@ -245,7 +233,7 @@ export const stepsContent = {
       title: "FOLLOW THE DAILY PROGRAM",
       description:
         "Complete the weekly training, apply the nutrition guidance, and learn the principles behind the work.",
-      image: "/images/step-2.jpg",
+      image: "/images/start/4.jpeg",
       imageAlt: "App profile and program overview screen",
     },
     {
@@ -253,11 +241,11 @@ export const stepsContent = {
       title: "REACH YOUR GOALS",
       description:
         "Develop the strength, endurance, discipline, and sustainable habits that help you Train Beyond Limits in every area of life.",
-      image: "/images/step-3.jpg",
+      image: "/images/start/1.jpeg",
       imageAlt: "App training progress and achievements screen",
     },
   ] as StepItem[],
-  ctaText: "UNLOCK ONE WEEK FREE",
+  ctaText: "BEYOND YOUR LIMITS STARTS HERE",
 };
 
 // ===== SECTION 8: NUTRITION 101 (id="nutrition101") =====
@@ -282,7 +270,7 @@ export const nutritionContent = {
   bgAlt: "Wholesome high-protein athletic nutrition ingredients and meal prep",
   phoneImage: "/images/nutrition-phone.jpg",
   phoneAlt: "Phone screen showing Nutrition 101 course overview",
-  ctaText: "UNLOCK ONE WEEK FREE",
+  ctaText: "BEYOND YOUR LIMITS STARTS HERE",
 };
 
 // ===== FOOTER =====

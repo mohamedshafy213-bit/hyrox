@@ -64,7 +64,7 @@ export default function Section7Steps() {
           <CTAButton
             text={stepsContent.ctaText}
             id="steps-cta-button"
-            ariaLabel="Unlock one week free and start building your standard"
+            ariaLabel="BEYOND YOUR LIMITS STARTS HERE and start building your standard"
           />
         </div>
       </div>

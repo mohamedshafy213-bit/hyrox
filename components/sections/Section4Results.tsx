@@ -30,7 +30,7 @@ export default function Section4Results() {
         {/* ===== [SECTION 4] MARQUEE: Infinite Horizontal Image Carousel | Card Size: 475x475 | Gap: 20px ===== */}
         {/* Content Key: resultsContent.items in /content/siteContent.ts */}
         <div className="w-full">
-          <Marquee items={resultsContent.items} isPaused={isPaused} />
+          <Marquee key="results-marquee" items={resultsContent.items} isPaused={isPaused} />
         </div>
 
         {/* ===== [SECTION 4] BUTTON: Circular Pause / Play Toggle (50px, #FF4438) ===== */}

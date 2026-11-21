@@ -15,54 +15,56 @@ export default function Section3System() {
     >
       <div className="max-w-[1700px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         {/* LEFT COLUMN: Phone Mockup & Badge Collage (50%) */}
-        <div className="lg:col-span-6 relative flex items-center justify-center min-h-[480px] sm:min-h-[580px] md:min-h-[650px] lg:min-h-[700px] order-2 lg:order-1">
+        <div className="lg:col-span-6 relative flex items-center justify-center min-h-[420px] sm:min-h-[500px] md:min-h-[560px] lg:min-h-[620px] order-2 lg:order-1">
           {/* Background Ambient Glow */}
-          <div className="absolute w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] bg-[#FF4438]/10 rounded-full blur-3xl pointer-events-none -z-10" />
+          <div className="absolute w-[260px] sm:w-[380px] h-[260px] sm:h-[380px] bg-[#FF4438]/10 rounded-full blur-3xl pointer-events-none -z-10" />
 
           {/* ===== [SECTION 3] IMAGE: Phone 2 (Exercise List) | path: /public/images/phone-workout-2.jpg | size: 420x700 ===== */}
           {/* Content Key: systemContent.phones.exerciseList in /content/siteContent.ts */}
-          <div className="relative z-10 w-[210px] sm:w-[280px] md:w-[330px] lg:w-[360px] h-[380px] sm:h-[480px] md:h-[560px] lg:h-[620px] rotate-[10deg] translate-x-6 sm:translate-x-12 translate-y-2 drop-shadow-[0_25px_35px_rgba(0,0,0,0.22)] transition-transform duration-500 hover:rotate-[8deg] rounded-[28px] overflow-hidden bg-[#111111] p-1 border border-black/10">
-            <div className="relative w-full h-full rounded-[24px] overflow-hidden">
+          <div className="relative z-10 w-[175px] sm:w-[225px] md:w-[265px] lg:w-[290px] xl:w-[310px] h-[315px] sm:h-[405px] md:h-[475px] lg:h-[515px] xl:h-[545px] rotate-[10deg] sm:rotate-[12deg] lg:rotate-[14deg] translate-x-10 sm:translate-x-16 md:translate-x-20 lg:translate-x-24 xl:translate-x-28 translate-y-1 sm:translate-y-2 lg:translate-y-3 drop-shadow-[0_20px_35px_rgba(0,0,0,0.22)] transition-transform duration-500 hover:rotate-[11deg] rounded-[24px] sm:rounded-[28px] overflow-hidden bg-[#111111] p-1 border border-black/15">
+            <div className="relative w-full h-full rounded-[20px] sm:rounded-[24px] overflow-hidden">
               <Image
+                key="behind-phone-mobility"
                 src={systemContent.phones.exerciseList}
                 alt={systemContent.phones.exerciseListAlt}
                 fill
                 className="object-cover object-top"
-                sizes="(max-width: 768px) 250px, 420px"
+                sizes="(max-width: 768px) 220px, 350px"
               />
             </div>
           </div>
 
           {/* ===== [SECTION 3] IMAGE: Phone 1 (Workout Video) | path: /public/images/phone-workout-1.jpg | size: 420x700 ===== */}
           {/* Content Key: systemContent.phones.workoutVideo in /content/siteContent.ts */}
-          <div className="absolute z-20 w-[220px] sm:w-[290px] md:w-[340px] lg:w-[380px] h-[400px] sm:h-[500px] md:h-[580px] lg:h-[650px] -rotate-[10deg] -translate-x-10 sm:-translate-x-14 drop-shadow-[0_30px_45px_rgba(0,0,0,0.28)] transition-transform duration-500 hover:-rotate-[8deg] rounded-[28px] overflow-hidden bg-[#111111] p-1 border border-black/10">
-            <div className="relative w-full h-full rounded-[24px] overflow-hidden">
+          <div className="absolute z-20 w-[185px] sm:w-[235px] md:w-[275px] lg:w-[305px] xl:w-[325px] h-[335px] sm:h-[425px] md:h-[495px] lg:h-[540px] xl:h-[570px] -rotate-[8deg] sm:-rotate-[9deg] lg:-rotate-[10deg] -translate-x-8 sm:-translate-x-12 md:-translate-x-16 lg:-translate-x-18 xl:-translate-x-20 drop-shadow-[0_25px_40px_rgba(0,0,0,0.28)] transition-transform duration-500 hover:-rotate-[7deg] rounded-[24px] sm:rounded-[28px] overflow-hidden bg-[#111111] p-1 border border-black/10">
+            <div className="relative w-full h-full rounded-[20px] sm:rounded-[24px] overflow-hidden">
               <Image
+                key="front-phone-workout"
                 src={systemContent.phones.workoutVideo}
                 alt={systemContent.phones.workoutVideoAlt}
                 fill
                 className="object-cover object-top"
-                sizes="(max-width: 768px) 260px, 420px"
+                sizes="(max-width: 768px) 230px, 360px"
               />
             </div>
           </div>
 
           {/* ===== [SECTION 3] IMAGE: Circle badge photo | path: /public/images/badge.jpg | size: 300x300 ===== */}
           {/* Content Key: systemContent.badge in /content/siteContent.ts */}
-          <div className="absolute z-30 bottom-2 sm:bottom-6 right-2 sm:right-8 md:right-12 w-[120px] sm:w-[160px] md:w-[190px] lg:w-[210px] h-[120px] sm:h-[160px] md:h-[190px] lg:h-[210px] rounded-full border-[4px] sm:border-[5px] border-[#FF4438] overflow-hidden shadow-[0_15px_35px_rgba(255,68,56,0.35)] group bg-[#111111]">
+          <div className="absolute z-30 bottom-1 sm:bottom-3 left-1/2 -translate-x-3 sm:-translate-x-1 md:translate-x-1 lg:translate-x-2 w-[100px] sm:w-[130px] md:w-[150px] lg:w-[165px] h-[100px] sm:h-[130px] md:h-[150px] lg:h-[165px] rounded-full border-[3px] sm:border-[4px] border-[#FF4438] overflow-hidden shadow-[0_15px_30px_rgba(255,68,56,0.35)] group bg-[#111111]">
             <Image
               src={systemContent.badge.image}
               alt={systemContent.badge.imageAlt}
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
-              sizes="(max-width: 768px) 140px, 250px"
+              sizes="(max-width: 768px) 130px, 200px"
             />
             {/* Dark gradient for badge text readability */}
             <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center p-2 text-center select-none pointer-events-none">
-              <span className="font-heading font-extrabold text-white text-[24px] sm:text-[34px] md:text-[40px] leading-none tracking-wider">
+              <span className="font-heading font-extrabold text-white text-[20px] sm:text-[28px] md:text-[34px] leading-none tracking-wider">
                 {systemContent.badge.title}
               </span>
-              <span className="font-heading font-bold text-[#FF4438] text-[12px] sm:text-[15px] md:text-[18px] tracking-[0.2em] mt-0.5">
+              <span className="font-heading font-bold text-[#FF4438] text-[11px] sm:text-[13px] md:text-[15px] tracking-[0.2em] mt-0.5">
                 {systemContent.badge.subtitle}
               </span>
             </div>
@@ -125,7 +127,7 @@ export default function Section3System() {
             <CTAButton
               text={systemContent.ctaText}
               id="system-cta-button"
-              ariaLabel="Unlock one week free inside the system"
+              ariaLabel="BEYOND YOUR LIMITS STARTS HERE inside the system"
             />
           </div>
         </div>

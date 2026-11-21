@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ),
   title: `${BRAND.name} | ${BRAND.slogan} — Hybrid Athlete Training & Nutrition`,
   description:
-    "Achieve your highest level of fitness with the Khairy Hybrid Method. Structured training, practical nutrition, and direct mentorship. Unlock one week free.",
+    "Achieve your highest level of fitness with the Khairy Hybrid Method. Structured training, practical nutrition, and direct mentorship. BEYOND YOUR LIMITS STARTS HERE.",
   keywords: [
     "Khairy Hybrid",
     "Train Beyond Limits",

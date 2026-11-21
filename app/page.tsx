@@ -9,7 +9,6 @@ import Section4Results from "@/components/sections/Section4Results";
 import Section5Inside from "@/components/sections/Section5Inside";
 import Section6Method from "@/components/sections/Section6Method";
 import Section7Steps from "@/components/sections/Section7Steps";
-import Section8Nutrition from "@/components/sections/Section8Nutrition";
 import Footer from "@/components/Footer";
 
 export default function HomePage() {
@@ -41,9 +40,6 @@ export default function HomePage() {
 
       {/* SECTION 7 — START BUILDING YOUR STANDARD (id="steps") */}
       <Section7Steps />
-
-      {/* SECTION 8 — NUTRITION 101 (id="nutrition101") */}
-      <Section8Nutrition />
 
       {/* FOOTER */}
       <Footer />

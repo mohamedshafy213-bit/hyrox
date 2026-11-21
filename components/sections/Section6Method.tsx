@@ -49,7 +49,7 @@ export default function Section6Method() {
             <CTAButton
               text={methodContent.ctaText}
               id="method-cta-button"
-              ariaLabel="Unlock one week free method access"
+              ariaLabel="BEYOND YOUR LIMITS STARTS HERE method access"
             />
           </div>
         </div>

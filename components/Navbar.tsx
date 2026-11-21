@@ -66,9 +66,8 @@ export default function Navbar() {
 
       {/* ===== [NAVBAR] MOBILE MENU DRAWER ===== */}
       <div
-        className={`fixed inset-0 top-[70px] bg-[#111111]/98 backdrop-blur-xl transition-all duration-300 lg:hidden flex flex-col justify-between px-8 py-10 z-40 ${
-          isOpen ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-4"
-        }`}
+        className={`fixed inset-0 top-[70px] bg-[#111111]/98 backdrop-blur-xl transition-all duration-300 lg:hidden flex flex-col justify-between px-8 py-10 z-40 ${isOpen ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-4"
+          }`}
       >
         <div className="flex flex-col space-y-5">
           {navigationContent.links.map((link, index) => (
@@ -85,9 +84,9 @@ export default function Navbar() {
 
         <div className="pt-6">
           <CTAButton
-            text="UNLOCK ONE WEEK FREE"
+            text="BEYOND YOUR LIMITS STARTS HERE"
             className="w-full text-center"
-            ariaLabel="Unlock one week free inside the app"
+            ariaLabel="BEYOND YOUR LIMITS STARTS HERE inside the app"
           />
         </div>
       </div>

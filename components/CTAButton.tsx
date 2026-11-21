@@ -18,7 +18,7 @@ interface CTAButtonProps {
  * Opens in a new tab securely.
  */
 export default function CTAButton({
-  text = "UNLOCK ONE WEEK FREE",
+  text = "BEYOND YOUR LIMITS STARTS HERE",
   className = "",
   customMessage,
   customUrl,
@@ -34,7 +34,7 @@ export default function CTAButton({
     process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "OW7BVKQQEABYK1";
   const defaultMessage =
     process.env.NEXT_PUBLIC_WHATSAPP_MESSAGE ||
-    "Hello! I want to unlock one week free for the Go One More App.";
+    "Hello! I want to BEYOND YOUR LIMITS STARTS HERE for the Go One More App.";
 
   let href = directUrl;
 

@@ -92,18 +92,18 @@ export default function Section5Inside() {
             <CTAButton
               text={insideContent.ctaText}
               id="inside-cta-button"
-              ariaLabel="Unlock one week free app preview"
+              ariaLabel="BEYOND YOUR LIMITS STARTS HERE app preview"
             />
           </div>
         </div>
 
         {/* RIGHT COLUMN: Slider / Mockup Composition (approx 50-55%) */}
-        <div className="lg:col-span-7 relative min-h-[440px] sm:min-h-[520px] md:min-h-[600px] flex items-center justify-center lg:justify-end">
+        <div className="lg:col-span-7 relative min-h-[460px] sm:min-h-[540px] md:min-h-[620px] lg:min-h-[660px] flex items-center justify-center lg:justify-end">
           {/* Background Ambient Glow */}
           <div className="absolute w-[350px] h-[350px] bg-[#D4C08F]/15 rounded-full blur-3xl pointer-events-none -z-10" />
 
           {/* Athlete Background Photo Container (600x400) */}
-          <div className="relative w-full max-w-[580px] h-[320px] sm:h-[380px] md:h-[420px] rounded-[24px] overflow-hidden shadow-[0_20px_45px_rgba(0,0,0,0.18)] bg-[#111111] border border-black/5 ml-auto">
+          <div className="relative w-full max-w-[430px] h-[320px] sm:h-[380px] md:h-[420px] rounded-[24px] overflow-hidden shadow-[0_20px_45px_rgba(0,0,0,0.18)] bg-[#111111] border border-black/5 ml-auto">
             {/* ===== [SECTION 5] IMAGE: Athlete Photo | path: /public/images/inside-athlete-*.jpg | size: 600x400 ===== */}
             <Image
               src={currentSlide.athleteImage}
@@ -121,29 +121,31 @@ export default function Section5Inside() {
           </div>
 
           {/* Overlapping App Mockup 1: Profile (Behind, Left) */}
-          {/* ===== [SECTION 5] IMAGE: App Profile Phone Mockup | path: /public/images/app-profile-*.jpg | size: 240x520 ===== */}
-          <div className="absolute left-2 sm:left-6 lg:-left-2 bottom-0 w-[140px] sm:w-[190px] md:w-[230px] lg:w-[240px] h-[280px] sm:h-[380px] md:h-[450px] lg:h-[480px] drop-shadow-[0_25px_35px_rgba(0,0,0,0.35)] z-20 transition-all duration-500 hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
-            <div className="relative w-full h-full rounded-[20px] overflow-hidden">
+          {/* ===== [SECTION 5] IMAGE: App Profile Phone Mockup ===== */}
+          <div className="absolute left-0 sm:left-2 md:left-4 lg:-left-12 xl:-left-16 bottom-2 sm:bottom-3 lg:bottom-4 w-[160px] sm:w-[210px] md:w-[245px] lg:w-[265px] xl:w-[280px] h-[330px] sm:h-[435px] md:h-[515px] lg:h-[555px] xl:h-[585px] -rotate-[6deg] sm:-rotate-[8deg] lg:-rotate-[9deg] drop-shadow-[0_25px_40px_rgba(0,0,0,0.38)] z-20 transition-all duration-500 hover:-rotate-[6deg] hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
+            <div className="relative w-full h-full rounded-[20px] overflow-hidden bg-white">
               <Image
+                key={currentSlide.phoneBack}
                 src={currentSlide.phoneBack}
                 alt="App Profile Overview"
                 fill
-                className="object-cover object-top"
-                sizes="(max-width: 768px) 160px, 240px"
+                className="object-contain object-top"
+                sizes="(max-width: 768px) 180px, 280px"
               />
             </div>
           </div>
 
           {/* Overlapping App Mockup 2: Program / Workout (Front, Overlapping) */}
-          {/* ===== [SECTION 5] IMAGE: App Program Phone Mockup | path: /public/images/app-program-*.jpg | size: 240x520 ===== */}
-          <div className="absolute left-20 sm:left-32 lg:left-28 bottom-[-10px] sm:bottom-[-20px] w-[150px] sm:w-[200px] md:w-[240px] lg:w-[250px] h-[300px] sm:h-[400px] md:h-[470px] lg:h-[500px] drop-shadow-[0_30px_45px_rgba(0,0,0,0.4)] z-30 transition-all duration-500 hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
-            <div className="relative w-full h-full rounded-[20px] overflow-hidden">
+          {/* ===== [SECTION 5] IMAGE: App Program Phone Mockup ===== */}
+          <div className="absolute left-24 sm:left-36 md:left-44 lg:left-44 xl:left-48 bottom-[-8px] sm:bottom-[-14px] lg:bottom-[-18px] xl:bottom-[-20px] w-[165px] sm:w-[215px] md:w-[250px] lg:w-[270px] xl:w-[285px] h-[335px] sm:h-[440px] md:h-[520px] lg:h-[560px] xl:h-[590px] rotate-[4deg] sm:rotate-[5deg] lg:rotate-[6deg] drop-shadow-[0_30px_45px_rgba(0,0,0,0.45)] z-30 transition-all duration-500 hover:rotate-[3deg] hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
+            <div className="relative w-full h-full rounded-[20px] overflow-hidden bg-white">
               <Image
+                key={currentSlide.phoneFront}
                 src={currentSlide.phoneFront}
                 alt="App Program Details"
                 fill
-                className="object-cover object-top"
-                sizes="(max-width: 768px) 180px, 250px"
+                className="object-contain object-top"
+                sizes="(max-width: 768px) 200px, 290px"
               />
             </div>
           </div>
