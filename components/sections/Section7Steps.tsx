@@ -13,10 +13,10 @@ export default function Section7Steps() {
       className="w-full bg-[#FFFFFF] pt-16 sm:pt-24 lg:pt-28 pb-16 sm:pb-24 px-6 sm:px-10 lg:px-16 overflow-hidden"
     >
       <div className="max-w-[1700px] mx-auto flex flex-col items-center">
-        {/* ===== [SECTION 7] HEADING: Centered Red Section Title ===== */}
+        {/* ===== [SECTION 7] HEADING: Centered Yellow Section Title ===== */}
         {/* Content Key: stepsContent.heading in /content/siteContent.ts */}
         <div className="text-center max-w-4xl mb-12 sm:mb-16">
-          <h2 className="font-heading font-bold text-[#FF4438] text-[34px] sm:text-[44px] lg:text-[52px] leading-[1.05] tracking-[0.03em] uppercase">
+          <h2 className="font-heading font-bold text-[#D4EC26] text-[34px] sm:text-[44px] lg:text-[52px] leading-[1.05] tracking-[0.03em] uppercase">
             {stepsContent.heading}
           </h2>
         </div>
@@ -36,8 +36,8 @@ export default function Section7Steps() {
                   {step.num}
                 </span>
 
-                {/* ===== [SECTION 7] HEADING: Step Red Uppercase Bold Title ===== */}
-                <h3 className="font-heading font-bold text-[#FF4438] text-[22px] sm:text-[26px] lg:text-[28px] leading-[1.1] uppercase mb-3 tracking-wide">
+                {/* ===== [SECTION 7] HEADING: Step Yellow Uppercase Bold Title ===== */}
+                <h3 className="font-heading font-bold text-[#D4EC26] text-[22px] sm:text-[26px] lg:text-[28px] leading-[1.1] uppercase mb-3 tracking-wide">
                   {step.title}
                 </h3>
 

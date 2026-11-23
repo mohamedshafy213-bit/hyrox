@@ -26,7 +26,7 @@ export default function Section2Transition() {
               key={idx}
               className="flex items-center space-x-3 sm:space-x-4 flex-shrink-0"
             >
-              <div className="w-2.5 h-2.5 rounded-full bg-[#FF4438]" />
+              <div className="w-2.5 h-2.5 rounded-full bg-[#D4EC26]" />
               <span className="font-heading font-extrabold text-[#111111] text-[16px] sm:text-[20px] md:text-[22px] tracking-[0.15em] uppercase">
                 {badge}
               </span>
@@ -39,7 +39,7 @@ export default function Section2Transition() {
       <div className="w-full max-w-5xl mx-auto px-6 sm:px-10 text-center">
         {/* ===== [SECTION 2.5] HEADING: Transition Statement Title ===== */}
         {/* Content Key: transitionContent.heading in /content/siteContent.ts */}
-        <h2 className="font-heading font-bold text-[#FF4438] text-[30px] sm:text-[42px] lg:text-[48px] leading-[1.1] tracking-[0.03em] uppercase mb-4 sm:mb-6">
+        <h2 className="font-heading font-bold text-[#D4EC26] text-[30px] sm:text-[42px] lg:text-[48px] leading-[1.1] tracking-[0.03em] uppercase mb-4 sm:mb-6">
           {transitionContent.heading}
         </h2>
 

@@ -61,7 +61,7 @@ export default function CTAButton({
       rel="noopener noreferrer"
       id={id}
       aria-label={ariaLabel || text}
-      className={`inline-flex items-center justify-center bg-[#FF4438] hover:bg-[#E0382D] active:bg-[#CC3328] text-white font-heading font-bold text-[14px] sm:text-[15px] md:text-[16px] tracking-[0.2em] uppercase px-7 py-4 sm:px-9 sm:py-[20px] md:py-[22px] rounded-none transition-all duration-300 shadow-[0_4px_20px_rgba(255,68,56,0.35)] hover:shadow-[0_6px_25px_rgba(255,68,56,0.55)] hover:-translate-y-0.5 active:translate-y-0 text-center select-none group cursor-pointer ${className}`}
+      className={`inline-flex items-center justify-center bg-[#D4EC26] hover:bg-[#C2DC1E] active:bg-[#AFCA15] text-[#111111] font-heading font-extrabold text-[14px] sm:text-[15px] md:text-[16px] tracking-[0.2em] uppercase px-7 py-4 sm:px-9 sm:py-[20px] md:py-[22px] rounded-none transition-all duration-300 shadow-[0_4px_20px_rgba(212,236,38,0.35)] hover:shadow-[0_6px_25px_rgba(212,236,38,0.55)] hover:-translate-y-0.5 active:translate-y-0 text-center select-none group cursor-pointer ${className}`}
     >
       <span className="relative z-10 font-bold">{text}</span>
     </Link>

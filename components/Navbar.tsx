@@ -42,10 +42,10 @@ export default function Navbar() {
             <Link
               key={index}
               href={link.href}
-              className="font-heading font-bold text-white text-[14px] xl:text-[16px] tracking-[0.08em] uppercase transition-colors duration-200 hover:text-[#FF4438] relative py-1 group whitespace-nowrap drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]"
+              className="font-heading font-bold text-white text-[14px] xl:text-[16px] tracking-[0.08em] uppercase transition-colors duration-200 hover:text-[#D4EC26] relative py-1 group whitespace-nowrap drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]"
             >
               {link.name}
-              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#FF4438] transition-all duration-300 group-hover:w-full" />
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#D4EC26] transition-all duration-300 group-hover:w-full" />
             </Link>
           ))}
         </nav>
@@ -57,7 +57,7 @@ export default function Navbar() {
             onClick={toggleMenu}
             aria-expanded={isOpen}
             aria-label="Toggle navigation menu"
-            className="text-white p-2 rounded-md hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-[#FF4438] drop-shadow-md"
+            className="text-white p-2 rounded-md hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-[#D4EC26] drop-shadow-md"
           >
             {isOpen ? <X className="w-8 h-8 text-white" /> : <Menu className="w-8 h-8 text-white" />}
           </button>
@@ -75,7 +75,7 @@ export default function Navbar() {
               key={index}
               href={link.href}
               onClick={closeMenu}
-              className="font-heading font-bold text-white text-[20px] tracking-[0.08em] uppercase hover:text-[#FF4438] border-b border-white/10 pb-3 transition-colors"
+              className="font-heading font-bold text-white text-[20px] tracking-[0.08em] uppercase hover:text-[#D4EC26] border-b border-white/10 pb-3 transition-colors"
             >
               {link.name}
             </Link>

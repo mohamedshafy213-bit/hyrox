@@ -34,7 +34,7 @@ export default function Section6Method() {
           {/* Content Key: methodContent.headingLine1, methodContent.headingLine2 in /content/siteContent.ts */}
           <h2 className="font-heading font-bold text-white text-[36px] sm:text-[46px] lg:text-[52px] leading-[1.05] tracking-[0.03em] uppercase mb-6 sm:mb-8 drop-shadow-md">
             <span className="block">{methodContent.headingLine1}</span>
-            <span className="block text-[#FF4438]">{methodContent.headingLine2}</span>
+            <span className="block text-[#D4EC26]">{methodContent.headingLine2}</span>
           </h2>
 
           {/* ===== [SECTION 6] TEXT: Method Philosophy Paragraph ===== */}
@@ -70,8 +70,8 @@ export default function Section6Method() {
                 key={index}
                 className="flex items-start space-x-3.5 group"
               >
-                {/* Red Number */}
-                <span className="font-heading font-extrabold text-[#FF4438] text-[22px] sm:text-[26px] leading-tight flex-shrink-0 drop-shadow-md">
+                {/* Yellow Number */}
+                <span className="font-heading font-extrabold text-[#D4EC26] text-[22px] sm:text-[26px] leading-tight flex-shrink-0 drop-shadow-md">
                   {item.num}.
                 </span>
                 {/* Framework Title */}

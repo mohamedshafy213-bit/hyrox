@@ -29,9 +29,9 @@ export default function Section5Inside() {
       <div className="max-w-[1700px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         {/* LEFT COLUMN: Text & Controls (approx 45-50%) */}
         <div className="lg:col-span-5 flex flex-col justify-center">
-          {/* ===== [SECTION 5] HEADING: Red Two-Line Main Title ===== */}
+          {/* ===== [SECTION 5] HEADING: Yellow Two-Line Main Title ===== */}
           {/* Content Key: insideContent.headingLine1, insideContent.headingLine2 in /content/siteContent.ts */}
-          <h2 className="font-heading font-bold text-[#FF4438] text-[36px] sm:text-[46px] lg:text-[56px] leading-[1.05] tracking-[0.03em] uppercase mb-2">
+          <h2 className="font-heading font-bold text-[#D4EC26] text-[36px] sm:text-[46px] lg:text-[56px] leading-[1.05] tracking-[0.03em] uppercase mb-2">
             <span className="block">{insideContent.headingLine1}</span>
             <span className="block">{insideContent.headingLine2}</span>
           </h2>
@@ -56,7 +56,7 @@ export default function Section5Inside() {
                   key={idx}
                   className="flex items-start space-x-3 text-[18px] sm:text-[20px] lg:text-[22px] text-[#2A2A2A]"
                 >
-                  <span className="w-2 h-2 rounded-full bg-[#FF4438] mt-2.5 flex-shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-[#D4EC26] mt-2.5 flex-shrink-0" />
                   <span className="font-body leading-[1.4]">{bullet}</span>
                 </li>
               ))}

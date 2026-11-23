@@ -22,7 +22,7 @@ export default function Section4Results() {
         {/* ===== [SECTION 4] HEADING: Centered Red Section Title ===== */}
         {/* Content Key: resultsContent.heading in /content/siteContent.ts */}
         <div className="text-center px-6 mb-8 sm:mb-12">
-          <h2 className="font-heading font-bold text-[#FF4438] text-[34px] sm:text-[44px] lg:text-[52px] leading-[1.05] tracking-[0.03em] uppercase">
+          <h2 className="font-heading font-bold text-[#D4EC26] text-[34px] sm:text-[44px] lg:text-[52px] leading-[1.05] tracking-[0.03em] uppercase">
             {resultsContent.heading}
           </h2>
         </div>
@@ -33,18 +33,18 @@ export default function Section4Results() {
           <Marquee key="results-marquee" items={resultsContent.items} isPaused={isPaused} />
         </div>
 
-        {/* ===== [SECTION 4] BUTTON: Circular Pause / Play Toggle (50px, #FF4438) ===== */}
+        {/* ===== [SECTION 4] BUTTON: Circular Pause / Play Toggle (50px, #D4EC26) ===== */}
         <div className="w-full max-w-[1700px] mx-auto px-6 sm:px-12 lg:px-24 flex justify-end mt-6">
           <button
             type="button"
             onClick={togglePause}
             aria-label={isPaused ? "Play carousel" : "Pause carousel"}
-            className="w-[50px] h-[50px] rounded-full bg-[#FF4438] hover:bg-[#E0382D] active:bg-[#CC3328] text-white flex items-center justify-center shadow-[0_4px_15px_rgba(255,68,56,0.4)] transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#FF4438] focus:ring-offset-2"
+            className="w-[50px] h-[50px] rounded-full bg-[#D4EC26] hover:bg-[#C2DC1E] active:bg-[#AFCA15] text-[#111111] flex items-center justify-center shadow-[0_4px_15px_rgba(212,236,38,0.35)] transition-all duration-300 hover:scale-105 active:scale-95 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#D4EC26] focus:ring-offset-2"
           >
             {isPaused ? (
-              <Play className="w-5 h-5 fill-white text-white ml-0.5" />
+              <Play className="w-5 h-5 fill-black text-black ml-0.5" />
             ) : (
-              <Pause className="w-5 h-5 fill-white text-white" />
+              <Pause className="w-5 h-5 fill-black text-black" />
             )}
           </button>
         </div>

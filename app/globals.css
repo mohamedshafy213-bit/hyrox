@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #FF4438;
-  --color-primary-dark: #E0382D;
-  --color-primary-hover: #CC3328;
+  --color-primary: #D4EC26;
+  --color-primary-dark: #C2DC1E;
+  --color-primary-hover: #AFCA15;
   --color-gold: #D4C08F;
   --color-gold-light: #E5D7B2;
   --color-gold-dark: #B8A36F;
@@ -37,10 +37,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 /* CTA button styling */
 .btn-cta {
-  background-color: #FF4438;
-  color: #FFFFFF;
+  background-color: #D4EC26;
+  color: #111111;
   font-family: var(--font-heading), 'Chakra Petch', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   padding: 20px 36px;
@@ -50,17 +50,17 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   justify-content: center;
   text-decoration: none;
   transition: all 0.25s ease-in-out;
-  box-shadow: 0 4px 14px rgba(255, 68, 56, 0.3);
+  box-shadow: 0 4px 14px rgba(212, 236, 38, 0.3);
 }
 
 .btn-cta:hover {
-  background-color: #E0382D;
-  box-shadow: 0 6px 20px rgba(255, 68, 56, 0.45);
+  background-color: #C2DC1E;
+  box-shadow: 0 6px 20px rgba(212, 236, 38, 0.45);
   transform: translateY(-2px);
 }
 
 .btn-cta:active {
-  background-color: #CC3328;
+  background-color: #AFCA15;
   transform: translateY(0);
 }
 
@@ -104,6 +104,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 /* Smooth focus rings */
 button:focus-visible, a:focus-visible {
-  outline: 2px solid #FF4438;
+  outline: 2px solid #D4EC26;
   outline-offset: 2px;
 }

@@ -18,7 +18,7 @@ const outfit = Outfit({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#FF4438",
+  themeColor: "#D4EC26",
   width: "device-width",
   initialScale: 1,
 };
@@ -75,7 +75,7 @@ export default function RootLayout({
       lang="en"
       className={`${chakraPetch.variable} ${outfit.variable} scroll-smooth`}
     >
-      <body className="min-h-screen bg-[#F5F3F0] text-[#2A2A2A] font-body selection:bg-[#FF4438] selection:text-white antialiased">
+      <body className="min-h-screen bg-[#F5F3F0] text-[#2A2A2A] font-body selection:bg-[#D4EC26] selection:text-black antialiased">
         {children}
       </body>
     </html>

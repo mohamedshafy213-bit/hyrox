@@ -108,7 +108,7 @@ export default function Section2Video() {
       <div className="max-w-5xl mx-auto flex flex-col items-center">
         {/* ===== [SECTION 2] HEADING: Two-line Red Heading (Light + Bold) ===== */}
         {/* Content Key: introVideoContent.headingLine1, introVideoContent.headingLine2 in /content/siteContent.ts */}
-        <h2 className="text-[#FF4438] font-heading leading-[1.05] tracking-[0.03em] uppercase mb-4 sm:mb-6">
+        <h2 className="text-[#D4EC26] font-heading leading-[1.05] tracking-[0.03em] uppercase mb-4 sm:mb-6">
           <span className="block font-light text-[32px] sm:text-[44px] lg:text-[52px]">
             {introVideoContent.headingLine1}
           </span>
@@ -236,7 +236,7 @@ export default function Section2Video() {
                 <div className="w-full h-1.5 sm:h-2 bg-white/25 rounded-full overflow-hidden relative">
                   {/* Played Fill */}
                   <div
-                    className="h-full bg-[#FF4438] transition-[width] duration-75"
+                    className="h-full bg-[#D4EC26] transition-[width] duration-75"
                     style={{ width: `${progressPercentage}%` }}
                   />
                 </div>
@@ -270,7 +270,7 @@ export default function Section2Video() {
                     type="button"
                     onClick={togglePlayPause}
                     aria-label={isPlaying ? "Pause video" : "Play video"}
-                    className="text-white hover:text-[#FF4438] transition-colors p-1 cursor-pointer focus:outline-none"
+                    className="text-white hover:text-[#D4EC26] transition-colors p-1 cursor-pointer focus:outline-none"
                   >
                     {isPlaying ? (
                       <Pause className="w-5 h-5 sm:w-6 sm:h-6 fill-current" />

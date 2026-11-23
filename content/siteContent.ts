@@ -230,7 +230,7 @@ export const stepsContent = {
     },
     {
       num: 2,
-      title: "FOLLOW THE DAILY PROGRAM",
+      title: "FOLLOW THE CUSTOMIZED PROGRAM",
       description:
         "Complete the weekly training, apply the nutrition guidance, and learn the principles behind the work.",
       image: "/images/start/4.jpeg",

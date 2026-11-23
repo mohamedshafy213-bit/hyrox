@@ -11,9 +11,9 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#FF4438",
-          dark: "#E0382D",
-          hover: "#CC3328",
+          DEFAULT: "#D4EC26",
+          dark: "#C2DC1E",
+          hover: "#AFCA15",
         },
         gold: {
           DEFAULT: "#D4C08F",
@@ -45,7 +45,7 @@ const config: Config = {
         card: "24px",
       },
       boxShadow: {
-        glow: "0 0 35px rgba(255, 68, 56, 0.35)",
+        glow: "0 0 35px rgba(212, 236, 38, 0.35)",
         card: "0 20px 40px -15px rgba(0, 0, 0, 0.15)",
         elevated: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
       },

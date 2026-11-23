@@ -17,7 +17,7 @@ export default function Section3System() {
         {/* LEFT COLUMN: Phone Mockup & Badge Collage (50%) */}
         <div className="lg:col-span-6 relative flex items-center justify-center min-h-[420px] sm:min-h-[500px] md:min-h-[560px] lg:min-h-[620px] order-2 lg:order-1">
           {/* Background Ambient Glow */}
-          <div className="absolute w-[260px] sm:w-[380px] h-[260px] sm:h-[380px] bg-[#FF4438]/10 rounded-full blur-3xl pointer-events-none -z-10" />
+          <div className="absolute w-[260px] sm:w-[380px] h-[260px] sm:h-[380px] bg-[#D4EC26]/15 rounded-full blur-3xl pointer-events-none -z-10" />
 
           {/* ===== [SECTION 3] IMAGE: Phone 2 (Exercise List) | path: /public/images/phone-workout-2.jpg | size: 420x700 ===== */}
           {/* Content Key: systemContent.phones.exerciseList in /content/siteContent.ts */}
@@ -51,7 +51,7 @@ export default function Section3System() {
 
           {/* ===== [SECTION 3] IMAGE: Circle badge photo | path: /public/images/badge.jpg | size: 300x300 ===== */}
           {/* Content Key: systemContent.badge in /content/siteContent.ts */}
-          <div className="absolute z-30 bottom-1 sm:bottom-3 left-1/2 -translate-x-3 sm:-translate-x-1 md:translate-x-1 lg:translate-x-2 w-[100px] sm:w-[130px] md:w-[150px] lg:w-[165px] h-[100px] sm:h-[130px] md:h-[150px] lg:h-[165px] rounded-full border-[3px] sm:border-[4px] border-[#FF4438] overflow-hidden shadow-[0_15px_30px_rgba(255,68,56,0.35)] group bg-[#111111]">
+          <div className="absolute z-30 bottom-1 sm:bottom-3 left-1/2 -translate-x-3 sm:-translate-x-1 md:translate-x-1 lg:translate-x-2 w-[100px] sm:w-[130px] md:w-[150px] lg:w-[165px] h-[100px] sm:h-[130px] md:h-[150px] lg:h-[165px] rounded-full border-[3px] sm:border-[4px] border-[#D4EC26] overflow-hidden shadow-[0_15px_30px_rgba(212,236,38,0.35)] group bg-[#111111]">
             <Image
               src={systemContent.badge.image}
               alt={systemContent.badge.imageAlt}
@@ -64,7 +64,7 @@ export default function Section3System() {
               <span className="font-heading font-extrabold text-white text-[20px] sm:text-[28px] md:text-[34px] leading-none tracking-wider">
                 {systemContent.badge.title}
               </span>
-              <span className="font-heading font-bold text-[#FF4438] text-[11px] sm:text-[13px] md:text-[15px] tracking-[0.2em] mt-0.5">
+              <span className="font-heading font-bold text-[#D4EC26] text-[11px] sm:text-[13px] md:text-[15px] tracking-[0.2em] mt-0.5">
                 {systemContent.badge.subtitle}
               </span>
             </div>
@@ -75,7 +75,7 @@ export default function Section3System() {
         <div className="lg:col-span-6 flex flex-col justify-center order-1 lg:order-2">
           {/* ===== [SECTION 3] HEADING: Red Two-Line Main Title ===== */}
           {/* Content Key: systemContent.headingLine1, systemContent.headingLine2 in /content/siteContent.ts */}
-          <h2 className="font-heading font-bold text-[#FF4438] text-[34px] sm:text-[44px] lg:text-[52px] leading-[1.05] tracking-[0.03em] uppercase mb-2">
+          <h2 className="font-heading font-bold text-[#D4EC26] text-[34px] sm:text-[44px] lg:text-[52px] leading-[1.05] tracking-[0.03em] uppercase mb-2">
             <span className="block">{systemContent.headingLine1}</span>
             <span className="block">{BRAND.name}</span>
           </h2>
@@ -108,8 +108,8 @@ export default function Section3System() {
                 className="flex items-start space-x-3.5 sm:space-x-4 text-[17px] sm:text-[20px] lg:text-[22px] leading-[1.35] text-[#2A2A2A]"
               >
                 {/* Red Arrow Icon (→) */}
-                <span className="flex-shrink-0 mt-1 text-[#FF4438]">
-                  <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 text-[#FF4438] stroke-[2.5]" />
+                <span className="flex-shrink-0 mt-1 text-[#D4EC26]">
+                  <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 text-[#D4EC26] stroke-[2.5]" />
                 </span>
                 <span>
                   <strong className="font-bold text-[#111111] mr-1.5">
