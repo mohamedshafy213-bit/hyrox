@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --font-heading: 'Chakra Petch', 'Saira Semi Condensed', sans-serif;
+  --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --color-primary: #D4EC26;
   --color-primary-dark: #C2DC1E;
   --color-primary-hover: #AFCA15;

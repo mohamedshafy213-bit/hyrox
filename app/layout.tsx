@@ -1,21 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Chakra_Petch, Outfit } from "next/font/google";
 import "./globals.css";
 import { BRAND } from "@/content/siteContent";
-
-const chakraPetch = Chakra_Petch({
-  weight: ["500", "600", "700"],
-  subsets: ["latin"],
-  variable: "--font-heading",
-  display: "swap",
-});
-
-const outfit = Outfit({
-  weight: ["300", "400", "500", "600", "700"],
-  subsets: ["latin"],
-  variable: "--font-body",
-  display: "swap",
-});
 
 export const viewport: Viewport = {
   themeColor: "#D4EC26",
@@ -71,10 +56,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${chakraPetch.variable} ${outfit.variable} scroll-smooth`}
-    >
+    <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;0,600;0,700;1,700;1,900&family=Outfit:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="min-h-screen bg-[#F5F3F0] text-[#2A2A2A] font-body selection:bg-[#D4EC26] selection:text-black antialiased">
         {children}
       </body>
