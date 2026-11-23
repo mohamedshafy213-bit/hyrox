@@ -103,7 +103,7 @@ export default function Section5Inside() {
           <div className="absolute w-[350px] h-[350px] bg-[#D4C08F]/15 rounded-full blur-3xl pointer-events-none -z-10" />
 
           {/* Athlete Background Photo Container (600x400) */}
-          <div className="relative w-full max-w-[430px] h-[320px] sm:h-[380px] md:h-[420px] rounded-[24px] overflow-hidden shadow-[0_20px_45px_rgba(0,0,0,0.18)] bg-[#111111] border border-black/5 ml-auto">
+          <div className="relative w-full max-w-[440px] sm:max-w-[490px] lg:max-w-[530px] h-[320px] sm:h-[380px] md:h-[420px] rounded-[24px] overflow-hidden shadow-[0_20px_45px_rgba(0,0,0,0.18)] bg-[#111111] border border-black/5 ml-auto">
             {/* ===== [SECTION 5] IMAGE: Athlete Photo | path: /public/images/inside-athlete-*.jpg | size: 600x400 ===== */}
             <Image
               src={currentSlide.athleteImage}
@@ -113,8 +113,8 @@ export default function Section5Inside() {
               sizes="(max-width: 1024px) 100vw, 600px"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-            <div className="absolute bottom-6 right-6 text-right max-w-xs z-10 hidden sm:block">
-              <span className="font-heading font-bold text-white text-lg block uppercase">
+            <div className="absolute bottom-5 sm:bottom-6 right-3 sm:right-4 md:right-5 text-right max-w-[210px] sm:max-w-[260px] md:max-w-[290px] z-10 hidden sm:block">
+              <span className="font-heading font-bold text-white text-[15px] sm:text-[17px] md:text-[18px] block uppercase leading-tight drop-shadow-md">
                 {currentSlide.subtitle}
               </span>
             </div>
@@ -122,7 +122,7 @@ export default function Section5Inside() {
 
           {/* Overlapping App Mockup 1: Profile (Behind, Left) */}
           {/* ===== [SECTION 5] IMAGE: App Profile Phone Mockup ===== */}
-          <div className="absolute left-0 sm:left-2 md:left-4 lg:-left-12 xl:-left-16 bottom-2 sm:bottom-3 lg:bottom-4 w-[160px] sm:w-[210px] md:w-[245px] lg:w-[265px] xl:w-[280px] h-[330px] sm:h-[435px] md:h-[515px] lg:h-[555px] xl:h-[585px] -rotate-[6deg] sm:-rotate-[8deg] lg:-rotate-[9deg] drop-shadow-[0_25px_40px_rgba(0,0,0,0.38)] z-20 transition-all duration-500 hover:-rotate-[6deg] hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
+          <div className="absolute left-0 sm:left-2 md:left-4 lg:-left-8 xl:-left-12 bottom-2 sm:bottom-3 lg:bottom-4 w-[160px] sm:w-[210px] md:w-[245px] lg:w-[265px] xl:w-[280px] h-[330px] sm:h-[435px] md:h-[515px] lg:h-[555px] xl:h-[585px] -rotate-[6deg] sm:-rotate-[8deg] lg:-rotate-[9deg] drop-shadow-[0_25px_40px_rgba(0,0,0,0.38)] z-20 transition-all duration-500 hover:-rotate-[6deg] hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
             <div className="relative w-full h-full rounded-[20px] overflow-hidden bg-white">
               <Image
                 key={currentSlide.phoneBack}
@@ -137,7 +137,7 @@ export default function Section5Inside() {
 
           {/* Overlapping App Mockup 2: Program / Workout (Front, Overlapping) */}
           {/* ===== [SECTION 5] IMAGE: App Program Phone Mockup ===== */}
-          <div className="absolute left-24 sm:left-36 md:left-44 lg:left-44 xl:left-48 bottom-[-8px] sm:bottom-[-14px] lg:bottom-[-18px] xl:bottom-[-20px] w-[165px] sm:w-[215px] md:w-[250px] lg:w-[270px] xl:w-[285px] h-[335px] sm:h-[440px] md:h-[520px] lg:h-[560px] xl:h-[590px] rotate-[4deg] sm:rotate-[5deg] lg:rotate-[6deg] drop-shadow-[0_30px_45px_rgba(0,0,0,0.45)] z-30 transition-all duration-500 hover:rotate-[3deg] hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
+          <div className="absolute left-20 sm:left-28 md:left-32 lg:left-36 xl:left-40 bottom-[-8px] sm:bottom-[-14px] lg:bottom-[-18px] xl:bottom-[-20px] w-[165px] sm:w-[215px] md:w-[250px] lg:w-[270px] xl:w-[285px] h-[335px] sm:h-[440px] md:h-[520px] lg:h-[560px] xl:h-[590px] rotate-[4deg] sm:rotate-[5deg] lg:rotate-[6deg] drop-shadow-[0_30px_45px_rgba(0,0,0,0.45)] z-30 transition-all duration-500 hover:rotate-[3deg] hover:-translate-y-2 rounded-[24px] overflow-hidden bg-[#111111] p-1 border border-black/15">
             <div className="relative w-full h-full rounded-[20px] overflow-hidden bg-white">
               <Image
                 key={currentSlide.phoneFront}
